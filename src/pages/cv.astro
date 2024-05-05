@@ -5,88 +5,72 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Resume</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Seeking a Student Accounting position at OMERS, where I can leverage my
+    accounting education and analytical skills to contribute to the
+    organization's financial operations and strategic initiatives while gaining
+    valuable experience in a professional environment.
+
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">Education</div>
+    </div>
+
+    <div class="time-line-container grid gap-4 mb-10">
+      <TimeLineElement
+        title="University of Waterloo"
+        subtitle="2023 to 2028 [Combinators + Optimisation , Statistics , Pure Mathematics , Econ-Minor] "
+      />
+    </div>
+
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">Experience</div>
+    </div>
+
+    <div class="time-line-container mb-10">
+      <TimeLineElement
+        title="NGO Synergy {Technical-Research Analyst}"
+        subtitle="Aug-2022 | Feb 2023"
+      >
+        ●Recommended modifications or changes to strategies based on research
+        results. <br />
+        ● Utilized workflow software to assign and manage research projects. <br
+        />● Screened potential subjects to determine suitability for studies.<br
+        /> ● Categorized and cataloged each piece of data into business database.
+        <br />● Conducted market research and analyzed data to identify trends,
+        opportunities, and potential risks. <br />● Monitored current events and
+        emerging trends in order to keep abreast with changes in the
+        marketplace. <br />● Analyzed complex datasets utilizing advanced
+        analytics techniques such as regression analysis and predictive
+        modeling.<br /> ● Performed statistical analysis of survey data using SPSS
+        software.
+      </TimeLineElement>
+      <TimeLineElement
+        title="Business Owner [Online Business Store]"
+        subtitle="Jan 2022 | Aug 2022"
+      >
+        ● Scaled Webstore reselling clothing and gaming objects <br />● MRR
+        $2000+ <br />● Scaled the business to over 700+ customers <br />● Used
+        Facebook , Twitter and Instagram Ad-sets for marketting
+      </TimeLineElement>
+    </div>
+
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">Skills</div>
+    </div>
+
+    <ul class="list-disc md:columns-5 columns-2 mx-6">
+      <li>Bash Script</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>AWS/HEROKU/GIT</li>
+      <li>Unity</li>
+      <li>SQL</li>
+      <li>Lua for NVIM / VIM</li>
+      <li>Latex</li>
+      <li>Racket</li>
+    </ul>
   </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
-  </div>
-
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
-  </div>
-
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
-  </div>
-
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-  </ul>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
-
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-  </ul>
 </BaseLayout>
